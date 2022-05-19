@@ -10,4 +10,24 @@ body {
   height: 100vh;
 }
 
+body {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: repeat(4, 1fr);
+}
+
+aside, header, main {
+  display: grid;
+  border: 2px solid black;
+}
+
+aside {
+  grid-row: span 4;
+}
+
+main {
+  grid-row: span 3;
+}
+
 /*# sourceMappingURL=styles.css.map */
