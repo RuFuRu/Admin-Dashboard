@@ -10,14 +10,25 @@ body {
 }
 
 aside , header , main {
-    display: grid;
     border: 2px solid black;
 }
 
 aside {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0 20px 30px;
     grid-row: span 4;
+    gap: 30px;
+    grid-template-columns: minmax(100px, 1fr);
+    @include listImage('.Dashboard',url('../images/icons/view-dashboard.png'), 50px, 50px);
+    background-color: red;
+}
+
+header {
+    display: grid;
 }
 
 main {
+    display: grid;
     grid-row: span 3;
 }
