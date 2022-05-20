@@ -83,13 +83,27 @@ header {
 
 main {
     display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 30px;
+    padding: 30px;
     grid-row: span 3;
+    .projects-container {
+        grid-row: span 2;
+        .projects-grid {
+            display: grid;
+            //grid-template-columns: ;
+        }
+    }
     .trending-container {
-        .sm-pfp {
-           /*temporary*/
-           height: 40px;
-           width: 40px;
-           border: 2px solid black; 
+        .tr-flex-container {
+            display: flex;
+            .sm-pfp {
+                /*temporary*/
+                height: 40px;
+                width: 40px;
+                border: 2px solid black; 
+             }
         }
     }
 }

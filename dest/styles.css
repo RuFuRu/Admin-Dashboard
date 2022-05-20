@@ -144,9 +144,22 @@ header .user-info .pfp-text-container h2 {
 
 main {
   display: grid;
+  grid-template-columns: 4fr 1fr;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 30px;
+  padding: 30px;
   grid-row: span 3;
 }
-main .trending-container .sm-pfp {
+main .projects-container {
+  grid-row: span 2;
+}
+main .projects-container .projects-grid {
+  display: grid;
+}
+main .trending-container .tr-flex-container {
+  display: flex;
+}
+main .trending-container .tr-flex-container .sm-pfp {
   /*temporary*/
   height: 40px;
   width: 40px;
