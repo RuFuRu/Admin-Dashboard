@@ -37,63 +37,63 @@ aside .Middle-List li:nth-child(1) {
   background-image: url("../images/icons/home-circle.png");
   background-repeat: no-repeat;
   line-height: 40px;
-  padding-left: 30px;
+  padding-left: 45px;
   list-style: none;
 }
 aside .Middle-List li:nth-child(2) {
   background-image: url("../images/icons/account-outline.png");
   background-repeat: no-repeat;
   line-height: 40px;
-  padding-left: 30px;
+  padding-left: 45px;
   list-style: none;
 }
 aside .Middle-List li:nth-child(3) {
   background-image: url("../images/icons/message.png");
   background-repeat: no-repeat;
   line-height: 40px;
-  padding-left: 30px;
+  padding-left: 45px;
   list-style: none;
 }
 aside .Middle-List li:nth-child(4) {
   background-image: url("../images/icons/history.png");
   background-repeat: no-repeat;
   line-height: 40px;
-  padding-left: 30px;
+  padding-left: 45px;
   list-style: none;
 }
 aside .Middle-List li:nth-child(5) {
   background-image: url("../images/icons/file-document-outline.png");
   background-repeat: no-repeat;
   line-height: 40px;
-  padding-left: 30px;
+  padding-left: 45px;
   list-style: none;
 }
 aside .Middle-List li:nth-child(6) {
   background-image: url("../images/icons/account-group.png");
   background-repeat: no-repeat;
   line-height: 40px;
-  padding-left: 30px;
+  padding-left: 45px;
   list-style: none;
 }
 aside .Bottom-List li:nth-child(1) {
   background-image: url("../images/icons/cog.png");
   background-repeat: no-repeat;
   line-height: 40px;
-  padding-left: 30px;
+  padding-left: 45px;
   list-style: none;
 }
 aside .Bottom-List li:nth-child(2) {
   background-image: url("../images/icons/face-agent.png");
   background-repeat: no-repeat;
   line-height: 40px;
-  padding-left: 30px;
+  padding-left: 45px;
   list-style: none;
 }
 aside .Bottom-List li:nth-child(3) {
   background-image: url("../images/icons/shield-check.png");
   background-repeat: no-repeat;
   line-height: 40px;
-  padding-left: 30px;
+  padding-left: 45px;
   list-style: none;
 }
 
