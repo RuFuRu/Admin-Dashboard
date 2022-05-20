@@ -20,8 +20,18 @@ aside {
     grid-row: span 4;
     gap: 30px;
     grid-template-columns: minmax(100px, 1fr);
-    @include listImage('.Dashboard',url('../images/icons/view-dashboard.png'), 50px, 50px);
     background-color: red;
+    @include listImage('.Dashboard li',url('../images/icons/view-dashboard.png'), 50px, 50px);
+    @include listImage('.Middle-List li:nth-child(1)',url('../images/icons/home-circle.png'), $aside-list-line-height);
+    @include listImage('.Middle-List li:nth-child(2)',url('../images/icons/account-outline.png'), $aside-list-line-height);
+    @include listImage('.Middle-List li:nth-child(3)', url('../images/icons/message.png'), $aside-list-line-height);
+    @include listImage('.Middle-List li:nth-child(4)', url('../images/icons/history.png'), $aside-list-line-height);
+    @include listImage('.Middle-List li:nth-child(5)', url('../images/icons/file-document-outline.png'), $aside-list-line-height);
+    @include listImage('.Middle-List li:nth-child(6)', url('../images/icons/account-group.png'), $aside-list-line-height);
+    @include listImage('.Bottom-List li:nth-child(1)', url('../images/icons/cog.png'), $aside-list-line-height);
+    @include listImage('.Bottom-List li:nth-child(2)', url('../images/icons/face-agent.png'), $aside-list-line-height);
+    @include listImage('.Bottom-List li:nth-child(3)', url('../images/icons/shield-check.png'), $aside-list-line-height);
+
 }
 
 header {
