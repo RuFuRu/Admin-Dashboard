@@ -36,6 +36,49 @@ aside {
 
 header {
     display: grid;
+    padding: 10px 50px;
+    
+    .search-bar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70px;
+        column-gap: 20px;
+        font-size: 1.2rem;
+        input[type="search"] {
+            width: 30vw;
+            margin-right: auto;
+        }
+        .sm-header-pfp {
+            /*temporary*/
+            height: 40px;
+            width: 40px;
+            border: 2px solid black;
+        }
+    }
+
+    .user-info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        .lg-header-pfp {
+            /*temporary*/
+            height: 80px;
+            width: 80px;
+            border: 2px solid black;
+        }
+        .pfp-text-container {
+            display: flex;
+            align-content: flex-end;
+            flex-direction: column;
+            height: 80px;
+            margin-right: auto;
+            h2 {
+                font-size: 2rem;
+            }
+        }
+    }
 }
 
 main {

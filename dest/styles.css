@@ -99,6 +99,47 @@ aside .Bottom-List li:nth-child(3) {
 
 header {
   display: grid;
+  padding: 10px 50px;
+}
+header .search-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  column-gap: 20px;
+  font-size: 1.2rem;
+}
+header .search-bar input[type=search] {
+  width: 30vw;
+  margin-right: auto;
+}
+header .search-bar .sm-header-pfp {
+  /*temporary*/
+  height: 40px;
+  width: 40px;
+  border: 2px solid black;
+}
+header .user-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+header .user-info .lg-header-pfp {
+  /*temporary*/
+  height: 80px;
+  width: 80px;
+  border: 2px solid black;
+}
+header .user-info .pfp-text-container {
+  display: flex;
+  align-content: flex-end;
+  flex-direction: column;
+  height: 80px;
+  margin-right: auto;
+}
+header .user-info .pfp-text-container h2 {
+  font-size: 2rem;
 }
 
 main {
