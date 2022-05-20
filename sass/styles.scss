@@ -20,7 +20,7 @@ aside {
     grid-row: span 4;
     gap: 30px;
     grid-template-columns: minmax(100px, 1fr);
-    background-color: red;
+    background-color: $sidebar-bg-colour;
     @include listImage('.Dashboard li',url('../images/icons/aside/view-dashboard.png'), 50px, 50px);
     @include listImage('.Middle-List li:nth-child(1)',url('../images/icons/aside/home-circle.png'), $aside-list-line-height);
     @include listImage('.Middle-List li:nth-child(2)',url('../images/icons/aside/account-outline.png'), $aside-list-line-height);
@@ -85,9 +85,10 @@ main {
     display: grid;
     grid-template-columns: 4fr 300px;
     grid-template-rows: repeat(2, 1fr);
-    //gap: 30px;
+    gap: 30px;
     padding: 30px;
     grid-row: span 3;
+    background-color: $main-bg-colour;
     p {
         font-size: 0.9rem;
         color: $p-colour;
@@ -102,6 +103,15 @@ main {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 30px;
+            h4 {
+                margin-bottom: 10px;
+            }
+            .icon-container {
+                display: flex;
+                justify-content: right;
+                gap: 5px;
+                margin-top: 20px;
+            }
         }
     }
     .announcement-container {
@@ -110,11 +120,13 @@ main {
     .trending-container {
         .tr-flex-container {
             display: flex;
+            gap: 10px;
             .sm-pfp {
                 /*temporary*/
                 height: 40px;
                 width: 40px;
                 border: 2px solid black; 
+                margin-bottom: 10px;
              }
         }
     }
