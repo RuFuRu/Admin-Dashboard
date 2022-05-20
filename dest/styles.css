@@ -146,5 +146,11 @@ main {
   display: grid;
   grid-row: span 3;
 }
+main .trending-container .sm-pfp {
+  /*temporary*/
+  height: 40px;
+  width: 40px;
+  border: 2px solid black;
+}
 
 /*# sourceMappingURL=styles.css.map */
