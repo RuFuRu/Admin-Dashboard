@@ -113,7 +113,7 @@ header .search-bar input[type=search] {
   width: 30vw;
   margin-right: auto;
 }
-header .search-bar .sm-header-pfp {
+header .search-bar .sm-pfp {
   /*temporary*/
   height: 40px;
   width: 40px;
@@ -125,7 +125,7 @@ header .user-info {
   align-items: center;
   gap: 20px;
 }
-header .user-info .lg-header-pfp {
+header .user-info .lg-pfp {
   /*temporary*/
   height: 80px;
   width: 80px;
