@@ -12,14 +12,14 @@ body {
   height: 100vh;
   display: grid;
   grid-template-columns: 1fr 4fr;
-  grid-template-rows: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
 }
 
 aside {
   display: flex;
   flex-direction: column;
   padding: 20px 0 20px 30px;
-  grid-row: span 4;
+  grid-row: span 5;
   gap: 30px;
   grid-template-columns: minmax(100px, 1fr);
   background-color: hsl(0deg, 76%, 44%);
@@ -126,11 +126,11 @@ header .user-info {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  column-gap: 20px;
 }
 header .user-info .lg-pfp {
   /*temporary*/
-  height: 80px;
+  height: 60px;
   width: 80px;
   border: 2px solid black;
 }
@@ -138,7 +138,7 @@ header .user-info .pfp-text-container {
   display: flex;
   align-content: flex-end;
   flex-direction: column;
-  height: 80px;
+  height: 60px;
   margin-right: auto;
 }
 header .user-info .pfp-text-container h2 {
@@ -161,7 +161,7 @@ main {
   grid-template-rows: repeat(2, 1fr);
   gap: 30px;
   padding: 30px;
-  grid-row: span 3;
+  grid-row: span 4;
   background-color: hsl(0deg, 93%, 94%);
 }
 main p {
@@ -209,6 +209,19 @@ main .projects-container .colour-strip {
   left: 0px;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
+}
+main .announcements-container .announ {
+  background-color: white;
+  border-radius: 20px;
+  padding: 30px;
+}
+main .announcements-container .announ h5 {
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+}
+main .announcements-container .announ hr {
+  margin: 15px 0;
+  border-color: hsl(0deg, 93%, 94%);
 }
 main .trending-container .tr-flex-container {
   display: flex;

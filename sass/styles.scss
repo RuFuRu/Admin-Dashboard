@@ -6,14 +6,14 @@ body {
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr 4fr;
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
 }
 
 aside {
     display: flex;
     flex-direction: column;
     padding: 20px 0 20px 30px;
-    grid-row: span 4;
+    grid-row: span 5;
     gap: 30px;
     grid-template-columns: minmax(100px, 1fr);
     background-color: $red-bg-colour;
@@ -62,10 +62,10 @@ header {
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 20px;
+        column-gap: 20px;
         .lg-pfp {
             /*temporary*/
-            height: 80px;
+            height: 60px;
             width: 80px;
             border: 2px solid black;
         }
@@ -73,7 +73,7 @@ header {
             display: flex;
             align-content: flex-end;
             flex-direction: column;
-            height: 80px;
+            height: 60px;
             margin-right: auto;
             h2 {
                 font-size: 2rem;
@@ -98,7 +98,7 @@ main {
     grid-template-rows: repeat(2, 1fr);
     gap: 30px;
     padding: 30px;
-    grid-row: span 3;
+    grid-row: span 4;
     background-color: $dimmer-red-bg-colour;
     p {
         font-size: 0.9rem;
@@ -146,8 +146,20 @@ main {
             border-bottom-left-radius: 20px;
         }
     }
-    .announcement-container {
-        
+    .announcements-container {
+        .announ {
+            background-color: white;
+            border-radius: 20px;
+            padding: 30px;
+            h5 {
+                font-size: 0.9rem;
+                margin-bottom: 5px;
+            }
+            hr {
+                margin: 15px 0;
+                border-color: $dimmer-red-bg-colour;
+            }
+        }
     }
     .trending-container {
         .tr-flex-container {
