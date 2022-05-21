@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
 /*colours*/
+/*box-shadow*/
 *, *::before, *::after {
   padding: 0;
   margin: 0;
@@ -97,6 +98,7 @@ aside .Bottom-List li:nth-child(3) {
 header {
   display: grid;
   padding: 10px 50px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 header .search-bar {
   display: flex;
@@ -168,6 +170,7 @@ main p {
   font-weight: 300;
 }
 main h3 {
+  font-size: 1.4rem;
   margin-bottom: 10px;
 }
 main .projects-container {
@@ -186,6 +189,16 @@ main .projects-container .projects-grid .icon-container {
   justify-content: right;
   gap: 5px;
   margin-top: 20px;
+}
+main .projects-container .projects-grid > div {
+  position: relative;
+  background-color: white;
+  border-radius: 20px;
+  padding: 30px 30px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+main .projects-container .projects-grid > div h4 {
+  font-size: 1.1rem;
 }
 main .trending-container .tr-flex-container {
   display: flex;

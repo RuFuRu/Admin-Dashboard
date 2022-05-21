@@ -33,6 +33,7 @@ aside {
 header {
     display: grid;
     padding: 10px 50px;
+    box-shadow: $box-shadow;
     
     .search-bar {
         display: flex;
@@ -105,6 +106,7 @@ main {
         font-weight: 300;
     }
     h3 {
+        font-size: 1.4rem;
         margin-bottom: 10px;
     }
     .projects-container {
@@ -121,6 +123,16 @@ main {
                 justify-content: right;
                 gap: 5px;
                 margin-top: 20px;
+            }
+        }
+        .projects-grid > div {
+            position: relative;
+            background-color: white;
+            border-radius: 20px;
+            padding: 30px 30px;
+            box-shadow: $box-shadow;
+            h4 {
+                font-size: 1.1rem;
             }
         }
     }
