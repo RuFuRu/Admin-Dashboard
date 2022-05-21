@@ -136,7 +136,6 @@ header .user-info .lg-pfp {
 }
 header .user-info .pfp-text-container {
   display: flex;
-  align-content: flex-end;
   flex-direction: column;
   height: 60px;
   margin-right: auto;
@@ -222,6 +221,11 @@ main .announcements-container .announ h5 {
 main .announcements-container .announ hr {
   margin: 15px 0;
   border-color: hsl(0deg, 93%, 94%);
+}
+main .trending-container .trending {
+  background-color: white;
+  border-radius: 20px;
+  padding: 5px 20px;
 }
 main .trending-container .tr-flex-container {
   display: flex;

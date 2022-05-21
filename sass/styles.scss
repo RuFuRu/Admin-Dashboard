@@ -71,7 +71,6 @@ header {
         }
         .pfp-text-container {
             display: flex;
-            align-content: flex-end;
             flex-direction: column;
             height: 60px;
             margin-right: auto;
@@ -162,6 +161,11 @@ main {
         }
     }
     .trending-container {
+        .trending {
+            background-color: white;
+            border-radius: 20px;
+            padding: 5px 20px;
+        }
         .tr-flex-container {
             display: flex;
             gap: 10px;
