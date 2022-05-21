@@ -109,6 +109,10 @@ header .search-bar {
 header .search-bar input[type=search] {
   width: 30vw;
   margin-right: auto;
+  padding: 5px;
+  border: none;
+  border-radius: 20px;
+  background-color: hsl(0deg, 93%, 94%);
 }
 header .search-bar .sm-pfp {
   /*temporary*/
@@ -156,7 +160,7 @@ main {
   gap: 30px;
   padding: 30px;
   grid-row: span 3;
-  background-color: hsl(0deg, 100%, 97%);
+  background-color: hsl(0deg, 93%, 94%);
 }
 main p {
   font-size: 0.9rem;
