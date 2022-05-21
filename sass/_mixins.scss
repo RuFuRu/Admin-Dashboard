@@ -1,4 +1,4 @@
-@mixin listImage($list, $image, $lineheight: inherit, $padding-left: 45px) {
+@mixin listImage($list, $image, $lineheight: 40px, $padding-left: 45px) {
     #{$list} {
         background-image: $image;
         background-repeat: no-repeat;

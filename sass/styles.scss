@@ -22,15 +22,15 @@ aside {
     grid-template-columns: minmax(100px, 1fr);
     background-color: $sidebar-bg-colour;
     @include listImage('.Dashboard li',url('../images/icons/aside/view-dashboard.png'), 50px, 50px);
-    @include listImage('.Middle-List li:nth-child(1)',url('../images/icons/aside/home-circle.png'), $aside-list-line-height);
-    @include listImage('.Middle-List li:nth-child(2)',url('../images/icons/aside/account-outline.png'), $aside-list-line-height);
-    @include listImage('.Middle-List li:nth-child(3)', url('../images/icons/aside/message.png'), $aside-list-line-height);
-    @include listImage('.Middle-List li:nth-child(4)', url('../images/icons/aside/history.png'), $aside-list-line-height);
-    @include listImage('.Middle-List li:nth-child(5)', url('../images/icons/aside/file-document-outline.png'), $aside-list-line-height);
-    @include listImage('.Middle-List li:nth-child(6)', url('../images/icons/aside/account-group.png'), $aside-list-line-height);
-    @include listImage('.Bottom-List li:nth-child(1)', url('../images/icons/aside/cog.png'), $aside-list-line-height);
-    @include listImage('.Bottom-List li:nth-child(2)', url('../images/icons/aside/face-agent.png'), $aside-list-line-height);
-    @include listImage('.Bottom-List li:nth-child(3)', url('../images/icons/aside/shield-check.png'), $aside-list-line-height);
+    @include listImage('.Middle-List li:nth-child(1)',url('../images/icons/aside/home-circle.png'));
+    @include listImage('.Middle-List li:nth-child(2)',url('../images/icons/aside/account-outline.png'));
+    @include listImage('.Middle-List li:nth-child(3)', url('../images/icons/aside/message.png'));
+    @include listImage('.Middle-List li:nth-child(4)', url('../images/icons/aside/history.png'));
+    @include listImage('.Middle-List li:nth-child(5)', url('../images/icons/aside/file-document-outline.png'));
+    @include listImage('.Middle-List li:nth-child(6)', url('../images/icons/aside/account-group.png'));
+    @include listImage('.Bottom-List li:nth-child(1)', url('../images/icons/aside/cog.png'));
+    @include listImage('.Bottom-List li:nth-child(2)', url('../images/icons/aside/face-agent.png'));
+    @include listImage('.Bottom-List li:nth-child(3)', url('../images/icons/aside/shield-check.png'));
 
 }
 
