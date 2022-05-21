@@ -135,6 +135,16 @@ main {
                 font-size: 1.1rem;
             }
         }
+        .colour-strip {
+            height: 100%;
+            width: 15px;
+            background-color: $strip-colour;
+            position: absolute;
+            bottom: 0;
+            left: 0px;
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+        }
     }
     .announcement-container {
         

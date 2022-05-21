@@ -200,6 +200,16 @@ main .projects-container .projects-grid > div {
 main .projects-container .projects-grid > div h4 {
   font-size: 1.1rem;
 }
+main .projects-container .colour-strip {
+  height: 100%;
+  width: 15px;
+  background-color: hsl(59deg, 75%, 49%);
+  position: absolute;
+  bottom: 0;
+  left: 0px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
 main .trending-container .tr-flex-container {
   display: flex;
   gap: 10px;
