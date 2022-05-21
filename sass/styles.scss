@@ -54,7 +54,10 @@ header {
             /*temporary*/
             height: 40px;
             width: 40px;
-            border: 2px solid black;
+            border-radius: 50%;
+            img {
+                @extend .sm-pfp; 
+            }
         }
     }
 
@@ -67,7 +70,10 @@ header {
             /*temporary*/
             height: 60px;
             width: 80px;
-            border: 2px solid black;
+            border-radius: 50%;
+            img {
+                @extend .lg-pfp;
+            }
         }
         .pfp-text-container {
             display: flex;
@@ -96,7 +102,7 @@ main {
     grid-template-columns: 4fr 300px;
     grid-template-rows: repeat(2, 1fr);
     gap: 30px;
-    padding: 30px;
+    padding: 20px 30px;
     grid-row: span 4;
     background-color: $dimmer-red-bg-colour;
     p {
@@ -164,7 +170,7 @@ main {
         .trending {
             background-color: white;
             border-radius: 20px;
-            padding: 5px 20px;
+            padding: 10px 20px;
         }
         .tr-flex-container {
             display: flex;
@@ -173,8 +179,20 @@ main {
                 /*temporary*/
                 height: 40px;
                 width: 40px;
-                border: 2px solid black; 
+                border-radius: 50%;
                 margin-bottom: 10px;
+                #small-maincat {
+                    @extend .sm-pfp;
+                }
+                #small-cat2 {
+                    @extend .sm-pfp;
+                }
+                #small-corgi {
+                    @extend .sm-pfp;
+                }
+                #small-fox {
+                    @extend .sm-pfp;
+                }
              }
         }
     }
